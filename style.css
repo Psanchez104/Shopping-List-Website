@@ -1,0 +1,55 @@
+/*universal*/
+.done{
+    text-decoration: line-through;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+button{
+    background-color: goldenrod;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 4px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(background.jpg);
+    position: relative;
+    min-height: 100vh;
+    margin-bottom: 15px;
+    
+}
+h1{
+    font-size: 62px;
+    margin-top: 10%;
+    color: aliceblue;
+}
+h2{
+    font-size: 32px;
+    color: aliceblue;
+}
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+ul{
+    color: aliceblue;
+    list-style: none;
+}
+li{
+    font-size: 38px;
+    margin-top: 10px;
+    margin-left: -150px;
+    width: 300px;
+}
+li button{
+    float: right;
+}
